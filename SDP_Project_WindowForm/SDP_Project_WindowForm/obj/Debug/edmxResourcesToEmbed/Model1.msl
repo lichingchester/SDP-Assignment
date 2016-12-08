@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="sdp_datebaseModelStoreContainer" CdmEntityContainer="sdp_datebaseEntities">
+    <EntitySetMapping Name="attract_price">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.attract_price">
+        <MappingFragment StoreEntitySet="attract_price">
+          <ScalarProperty Name="AttractName" ColumnName="AttractName" />
+          <ScalarProperty Name="Visitor" ColumnName="Visitor" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="attraction">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.attraction">
+        <MappingFragment StoreEntitySet="attraction">
+          <ScalarProperty Name="AttractName" ColumnName="AttractName" />
+          <ScalarProperty Name="Duration" ColumnName="Duration" />
+          <ScalarProperty Name="Cancellation" ColumnName="Cancellation" />
+          <ScalarProperty Name="AttractPhoto" ColumnName="AttractPhoto" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="attraction_order">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.attraction_order">
+        <MappingFragment StoreEntitySet="attraction_order">
+          <ScalarProperty Name="AttractionOrderID" ColumnName="AttractionOrderID" />
+          <ScalarProperty Name="AttractionName" ColumnName="AttractionName" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="AdultPrice" ColumnName="AdultPrice" />
+          <ScalarProperty Name="ChildPrice" ColumnName="ChildPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="carrier">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.carrier">
+        <MappingFragment StoreEntitySet="carrier">
+          <ScalarProperty Name="CID" ColumnName="CID" />
+          <ScalarProperty Name="CarrierName" ColumnName="CarrierName" />
+          <ScalarProperty Name="CarrLogo" ColumnName="CarrLogo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="corganizer">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.corganizer">
+        <MappingFragment StoreEntitySet="corganizer">
+          <ScalarProperty Name="OrganID" ColumnName="OrganID" />
+          <ScalarProperty Name="OrganizerE" ColumnName="OrganizerE" />
+          <ScalarProperty Name="OrganizerC" ColumnName="OrganizerC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cruise">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.cruise">
+        <MappingFragment StoreEntitySet="cruise">
+          <ScalarProperty Name="CruiseID" ColumnName="CruiseID" />
+          <ScalarProperty Name="CruiseName" ColumnName="CruiseName" />
+          <ScalarProperty Name="RefPrice" ColumnName="RefPrice" />
+          <ScalarProperty Name="TourDay" ColumnName="TourDay" />
+          <ScalarProperty Name="OrganID" ColumnName="OrganID" />
+          <ScalarProperty Name="Info" ColumnName="Info" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="cruise_order">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.cruise_order">
+        <MappingFragment StoreEntitySet="cruise_order">
+          <ScalarProperty Name="CruiseOrderID" ColumnName="CruiseOrderID" />
+          <ScalarProperty Name="CruiseID" ColumnName="CruiseID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="CustNum" ColumnName="CustNum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="customer">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.customer">
+        <MappingFragment StoreEntitySet="customer">
+          <ScalarProperty Name="CustID" ColumnName="CustID" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="GivenName" ColumnName="GivenName" />
+          <ScalarProperty Name="DateOfBirth" ColumnName="DateOfBirth" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Passport" ColumnName="Passport" />
+          <ScalarProperty Name="Contact" ColumnName="Contact" />
+          <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="driver_roster">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.driver_roster">
+        <MappingFragment StoreEntitySet="driver_roster">
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="weekdayTS" ColumnName="weekdayTS" />
+          <ScalarProperty Name="weekendTS" ColumnName="weekendTS" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="equipment">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.equipment">
+        <MappingFragment StoreEntitySet="equipment">
+          <ScalarProperty Name="EquipID" ColumnName="EquipID" />
+          <ScalarProperty Name="Equipment1" ColumnName="Equipment" />
+          <ScalarProperty Name="Suitable" ColumnName="Suitable" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="equipmentlist">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.equipmentlist">
+        <MappingFragment StoreEntitySet="equipmentlist">
+          <ScalarProperty Name="VehicleBookingID" ColumnName="VehicleBookingID" />
+          <ScalarProperty Name="EquipID" ColumnName="EquipID" />
+          <ScalarProperty Name="EquipBookPrice" ColumnName="EquipBookPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="feedback">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.feedback">
+        <MappingFragment StoreEntitySet="feedback">
+          <ScalarProperty Name="FeedBackID" ColumnName="FeedBackID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Mark" ColumnName="Mark" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="flight_booking">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.flight_booking">
+        <MappingFragment StoreEntitySet="flight_booking">
+          <ScalarProperty Name="idReturn" ColumnName="idReturn" />
+          <ScalarProperty Name="totalPrice" ColumnName="totalPrice" />
+          <ScalarProperty Name="InfantNum" ColumnName="InfantNum" />
+          <ScalarProperty Name="ChildNum" ColumnName="ChildNum" />
+          <ScalarProperty Name="AdultNum" ColumnName="AdultNum" />
+          <ScalarProperty Name="FlightOrderID" ColumnName="FlightOrderID" />
+          <ScalarProperty Name="FlightID" ColumnName="FlightID" />
+          <ScalarProperty Name="FlightClassID" ColumnName="FlightClassID" />
+          <ScalarProperty Name="AdultPrice" ColumnName="AdultPrice" />
+          <ScalarProperty Name="ChildPrice" ColumnName="ChildPrice" />
+          <ScalarProperty Name="InfantPrice" ColumnName="InfantPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="flightclass">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.flightclass">
+        <MappingFragment StoreEntitySet="flightclass">
+          <ScalarProperty Name="flightclass_id" ColumnName="flightclass_id" />
+          <ScalarProperty Name="FlightNo" ColumnName="FlightNo" />
+          <ScalarProperty Name="Class" ColumnName="Class" />
+          <ScalarProperty Name="Price_Adult" ColumnName="Price_Adult" />
+          <ScalarProperty Name="Price_Children" ColumnName="Price_Children" />
+          <ScalarProperty Name="Price_Infant" ColumnName="Price_Infant" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="flightschedule">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.flightschedule">
+        <MappingFragment StoreEntitySet="flightschedule">
+          <ScalarProperty Name="FlightID" ColumnName="FlightID" />
+          <ScalarProperty Name="FlightNo" ColumnName="FlightNo" />
+          <ScalarProperty Name="Carrier" ColumnName="Carrier" />
+          <ScalarProperty Name="EDD" ColumnName="EDD" />
+          <ScalarProperty Name="EDA" ColumnName="EDA" />
+          <ScalarProperty Name="ETD" ColumnName="ETD" />
+          <ScalarProperty Name="ETA" ColumnName="ETA" />
+          <ScalarProperty Name="Origin" ColumnName="Origin" />
+          <ScalarProperty Name="Dest" ColumnName="Dest" />
+          <ScalarProperty Name="Aircraft" ColumnName="Aircraft" />
+          <ScalarProperty Name="TravelTime" ColumnName="TravelTime" />
+          <ScalarProperty Name="FlightType" ColumnName="FlightType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hotel">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.hotel">
+        <MappingFragment StoreEntitySet="hotel">
+          <ScalarProperty Name="HotelID" ColumnName="HotelID" />
+          <ScalarProperty Name="Hotel_chi_name" ColumnName="Hotel_chi_name" />
+          <ScalarProperty Name="Hotel_en_name" ColumnName="Hotel_en_name" />
+          <ScalarProperty Name="Star" ColumnName="Star" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="Region" ColumnName="Region" />
+          <ScalarProperty Name="address" ColumnName="address" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="dest" ColumnName="dest" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hotel_room">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.hotel_room">
+        <MappingFragment StoreEntitySet="hotel_room">
+          <ScalarProperty Name="HotelRoomID" ColumnName="HotelRoomID" />
+          <ScalarProperty Name="HotelID" ColumnName="HotelID" />
+          <ScalarProperty Name="Hotel_chi_name" ColumnName="Hotel_chi_name" />
+          <ScalarProperty Name="Hotel_room_name" ColumnName="Hotel_room_name" />
+          <ScalarProperty Name="Hotel__room_size" ColumnName="Hotel__room_size" />
+          <ScalarProperty Name="max_audults" ColumnName="max_audults" />
+          <ScalarProperty Name="max_child" ColumnName="max_child" />
+          <ScalarProperty Name="Hotel_room_description" ColumnName="Hotel_room_description" />
+          <ScalarProperty Name="Fare" ColumnName="Fare" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hotelbooking">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.hotelbooking">
+        <MappingFragment StoreEntitySet="hotelbooking">
+          <ScalarProperty Name="HotelOrderID" ColumnName="HotelOrderID" />
+          <ScalarProperty Name="NumNight" ColumnName="NumNight" />
+          <ScalarProperty Name="HotelRoomID" ColumnName="HotelRoomID" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Checkin" ColumnName="Checkin" />
+          <ScalarProperty Name="Checkout" ColumnName="Checkout" />
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="indirect">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.indirect">
+        <MappingFragment StoreEntitySet="indirect">
+          <ScalarProperty Name="FlightNo" ColumnName="FlightNo" />
+          <ScalarProperty Name="StopNo" ColumnName="StopNo" />
+          <ScalarProperty Name="Stop" ColumnName="Stop" />
+          <ScalarProperty Name="DateTime" ColumnName="DateTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="order">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.order">
+        <MappingFragment StoreEntitySet="order">
+          <ScalarProperty Name="OrderID" ColumnName="OrderID" />
+          <ScalarProperty Name="CustID" ColumnName="CustID" />
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+          <ScalarProperty Name="FlightOrderID" ColumnName="FlightOrderID" />
+          <ScalarProperty Name="HotelOrderID" ColumnName="HotelOrderID" />
+          <ScalarProperty Name="AttractionOrderID" ColumnName="AttractionOrderID" />
+          <ScalarProperty Name="CruiseOrderID" ColumnName="CruiseOrderID" />
+          <ScalarProperty Name="TransportOrderID" ColumnName="TransportOrderID" />
+          <ScalarProperty Name="isTemp" ColumnName="isTemp" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="staff">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.staff">
+        <MappingFragment StoreEntitySet="staff">
+          <ScalarProperty Name="StaffID" ColumnName="StaffID" />
+          <ScalarProperty Name="StaffName" ColumnName="StaffName" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Center" ColumnName="Center" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Salary" ColumnName="Salary" />
+          <ScalarProperty Name="Ctype" ColumnName="Ctype" />
+          <ScalarProperty Name="Late" ColumnName="Late" />
+          <ScalarProperty Name="photo" ColumnName="photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vehicle">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.vehicle">
+        <MappingFragment StoreEntitySet="vehicle">
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="VehicleName" ColumnName="VehicleName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="VehicleType" ColumnName="VehicleType" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+          <ScalarProperty Name="Gear" ColumnName="Gear" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vehiclebooking">
+      <EntityTypeMapping TypeName="sdp_datebaseModel.vehiclebooking">
+        <MappingFragment StoreEntitySet="vehiclebooking">
+          <ScalarProperty Name="VehicleOrderID" ColumnName="VehicleOrderID" />
+          <ScalarProperty Name="VehicleID" ColumnName="VehicleID" />
+          <ScalarProperty Name="PickupDate" ColumnName="PickupDate" />
+          <ScalarProperty Name="DropoffDate" ColumnName="DropoffDate" />
+          <ScalarProperty Name="VehicleBookPrice" ColumnName="VehicleBookPrice" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

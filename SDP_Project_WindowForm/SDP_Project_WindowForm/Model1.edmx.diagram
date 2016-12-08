@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a38cea981ba947d18f3de6fe66df4be4" Name="Diagram1">
+        <EntityTypeShape EntityType="sdp_datebaseModel.attract_price" Width="1.5" PointX="3" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.attraction" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.attraction_order" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.carrier" Width="1.5" PointX="1.5" PointY="26.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.corganizer" Width="1.5" PointX="1.5" PointY="12.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.cruise" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.cruise_order" Width="1.5" PointX="3" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.customer" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.driver_roster" Width="1.5" PointX="5.25" PointY="38.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.equipment" Width="1.5" PointX="3" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.equipmentlist" Width="1.5" PointX="5.25" PointY="42.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.feedback" Width="1.5" PointX="5.25" PointY="15.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.flight_booking" Width="1.5" PointX="3" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.flightclass" Width="1.5" PointX="0.75" PointY="18.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.flightschedule" Width="1.5" PointX="0.75" PointY="21.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.hotel" Width="1.5" PointX="1.5" PointY="34.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.hotel_room" Width="1.5" PointX="0.75" PointY="30.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.hotelbooking" Width="1.5" PointX="3" PointY="30.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.indirect" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.order" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.staff" Width="1.5" PointX="3" PointY="38" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.vehicle" Width="1.5" PointX="0.75" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="sdp_datebaseModel.vehiclebooking" Width="1.5" PointX="3" PointY="42.25" IsExpanded="true" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_ap_attrName" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_ao_attrName" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_order_attrID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_fc_airline" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_cruise_orID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_co_cruiseID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_order_cruiseID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_fd_custID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_order_custID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_roster_staffID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_elist_eID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.dk_elist_vID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_fb_classID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_fb_flightID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_order_flightID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_hotel_hotelID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_hb_roomID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_order_hotelID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_order_staffID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_order_tranID" ManuallyRouted="false" />
+        <AssociationConnector Association="sdp_datebaseModel.fk_vb_vID" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
