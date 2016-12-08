@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 //using AxAcroPDFLib;
-using AcroPDFLib;
+//using AcroPDFLib;
 
 
 namespace SDP_Project_WindowForm
