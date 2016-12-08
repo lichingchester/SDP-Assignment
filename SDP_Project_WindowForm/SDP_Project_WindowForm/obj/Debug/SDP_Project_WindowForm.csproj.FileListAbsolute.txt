@@ -220,3 +220,8 @@ C:\Users\324w8\Desktop\SDP_P\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\D
 C:\Users\324w8\Desktop\SDP_P\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.csproj.ResolveComReference.cache
 C:\Users\324w8\Desktop\SDP_P\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.exe
 C:\Users\324w8\Desktop\SDP_P\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.pdb
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm\SDP_Project_WindowForm\bin\Debug\SDP_Project_WindowForm.exe.config
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\Debug\Interop.QuartzTypeLib.dll
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.csproj.ResolveComReference.cache
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.exe
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.pdb
