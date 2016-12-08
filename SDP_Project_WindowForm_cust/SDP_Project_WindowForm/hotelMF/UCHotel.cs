@@ -13,16 +13,18 @@ namespace SDP_Project_WindowForm
     public partial class UCHotel : UserControl
     {
         private Data data;
+        private MainForm mf;
 
         public UCHotel()
         {
             InitializeComponent();
         }
 
-        public UCHotel(hotel list, Data data)
+        public UCHotel(hotel list, Data data, MainForm mf)
         {
             InitializeComponent();
             this.data = data;
+            this.mf = mf as MainForm;
 
             using (var entity = new sdp_datebaseEntities())
             {
@@ -60,6 +62,7 @@ namespace SDP_Project_WindowForm
                 data.Hotel = hotel;
             }
 
+            mf.hotelChecking();
         }
     }
 }
