@@ -86,19 +86,21 @@ namespace SDP_Project_WindowForm
             g.DrawString(_tabPage.Text, _tabFont, _textBrush, _tabBounds, new StringFormat(_stringFlags));
         }
 
-       private void reloaddata(){
-        ////customer saved
+        private void reloaddata(){
+            ////customer saved
+            dataGridView2.Rows.Clear();
+        
             using (var entity = new sdp_datebaseEntities()) {
                 var row = from list in entity.order
-                          where list.isTemp == data.savedID
-                          select list;
+                            where list.isTemp == data.savedID
+                            select list;
 
                 foreach (var list in row.ToList()) {
                     dataGridView2.Rows.Add(list.OrderID, list.CustID, list.StaffID, list.OrderDate.ToShortDateString(), list.FlightOrderID, list.HotelOrderID, list.AttractionOrderID,
                         list.CruiseOrderID, list.TransportOrderID, list.isTemp);
                 }
             }
-       }
+        }
 
         private void MainForm_Load(object sender, EventArgs e)
         {
@@ -888,6 +890,7 @@ namespace SDP_Project_WindowForm
                     break;
                 case 6:
                     ucStatuesBar1.sg_lblCurrentStatus = "  Customer Saved Search ready";
+                    reloaddata();
                     break;
                 case 7:
                     ucStatuesBar1.sg_lblCurrentStatus = "  Order Information ready";
@@ -1004,12 +1007,12 @@ namespace SDP_Project_WindowForm
                 }
             }
 
-            if (data.custID == null)
-            {
-                MessageBox.Show("You have to select a customer!");
-                return;
-            }
-            else if (!attrChecking || flowLayoutPanel2.Controls == null)
+            //if (data.custID == null)
+            //{
+            //    MessageBox.Show("You have to select a customer!");
+            //    return;
+            //}
+            if (!attrChecking || flowLayoutPanel2.Controls == null)
             {
                 MessageBox.Show("You have to search first!");
                 return;

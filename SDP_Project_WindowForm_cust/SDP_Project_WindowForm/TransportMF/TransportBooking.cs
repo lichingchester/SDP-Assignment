@@ -56,11 +56,11 @@ namespace SDP_Project_WindowForm
 
         private void choosecar_Click_1(object sender, EventArgs e)
         {
-            if (data.custID == null)
-            {
-                MessageBox.Show("You have to select a customer!");
-                return;
-            }
+            //if (data.custID == null)
+            //{
+            //    MessageBox.Show("You have to select a customer!");
+            //    return;
+            //}
             new BookingVehicleFrom(convertdata, data).ShowDialog();
 
         }

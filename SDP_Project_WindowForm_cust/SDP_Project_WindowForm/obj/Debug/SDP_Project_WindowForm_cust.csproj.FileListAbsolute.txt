@@ -72,7 +72,6 @@ D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_Win
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm_cust.csproj.ResolveComReference.cache
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.exe
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.pdb
-D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm_cust.csprojResolveAssemblyReference.cache
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.airTicketBooking.resources
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.AttractionBooking.resources
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.HotelBook.resources
@@ -92,3 +91,9 @@ D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_Win
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.ucAirTicketSearch_MF_2.resources
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm.ViewerWindow.resources
 D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\obj\Debug\SDP_Project_WindowForm_cust.csproj.GenerateResource.Cache
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\bin\Debug\SDP_Project_WindowForm.exe
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\bin\Debug\SDP_Project_WindowForm.pdb
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\bin\Debug\EntityFramework.dll
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\bin\Debug\EntityFramework.xml
+D:\Development\GitHub\SDP-Assignment\SDP_Project_WindowForm_cust\SDP_Project_WindowForm\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
