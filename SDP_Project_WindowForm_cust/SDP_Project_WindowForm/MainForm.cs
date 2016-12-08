@@ -1134,24 +1134,7 @@ namespace SDP_Project_WindowForm
                 }
             }
         }
-
-        private void btn_testing_Click(object sender, EventArgs e)
-        {
-            //flowLayoutPanel5.Controls.Clear();
-            //using (var entity = new sdp_datebaseEntities())
-            //{
-            //    var row = from list in entity.hotel_room
-            //              where list.Hotel_chi_name == data.hotelname
-            //              select list;
-
-            //    foreach (var list in row.ToList())
-            //    {
-            //        UCHotelSelect uc = new UCHotelSelect(list, data);
-            //        flowLayoutPanel5.Controls.Add(uc);
-            //    }
-            //}
-        }
-
+        
         public void hotelChecking()
         {
             flowLayoutPanel5.Controls.Clear();

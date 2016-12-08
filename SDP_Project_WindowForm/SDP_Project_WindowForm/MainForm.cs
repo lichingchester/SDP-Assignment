@@ -1218,13 +1218,13 @@ namespace SDP_Project_WindowForm
                 foreach (var list in ht.ToList())
                 {
                     // var price = entity.hotel_room.FirstOrDefault(i => (i.Hotel_chi_name == list.Hotel_chi_name));
-                    UCHotel uc = new UCHotel(list, data);
+                    UCHotel uc = new UCHotel(list, data, this);
                     flowLayoutPanel4.Controls.Add(uc);
                 }
             }
         }
 
-        private void btn_testing_Click(object sender, EventArgs e)
+        public void hotelChecking()
         {
             flowLayoutPanel5.Controls.Clear();
             using (var entity = new sdp_datebaseEntities())

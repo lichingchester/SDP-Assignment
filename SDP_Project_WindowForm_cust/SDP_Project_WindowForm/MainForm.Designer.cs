@@ -139,7 +139,6 @@
             this.tp3_hotel = new System.Windows.Forms.TabPage();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_testing = new System.Windows.Forms.Button();
             this.search_button = new System.Windows.Forms.Button();
             this.dateTimePicker_CheckOut = new System.Windows.Forms.DateTimePicker();
             this.label30 = new System.Windows.Forms.Label();
@@ -189,8 +188,8 @@
             this.btn_logout_mainform = new System.Windows.Forms.Button();
             this.lbl_userName_mainform = new System.Windows.Forms.Label();
             this.lbl_savedCode_forCust = new System.Windows.Forms.Label();
-            this.ucStatuesBar1 = new SDP_Project_WindowForm.ucStatuesBar();
             this.button4 = new System.Windows.Forms.Button();
+            this.ucStatuesBar1 = new SDP_Project_WindowForm.ucStatuesBar();
             this.tabControl1.SuspendLayout();
             this.tp1_homePage.SuspendLayout();
             this.tp2_airTicket.SuspendLayout();
@@ -316,7 +315,7 @@
             this.tp2_airTicket.Location = new System.Drawing.Point(104, 4);
             this.tp2_airTicket.Name = "tp2_airTicket";
             this.tp2_airTicket.Padding = new System.Windows.Forms.Padding(3);
-            this.tp2_airTicket.Size = new System.Drawing.Size(1026, 718);
+            this.tp2_airTicket.Size = new System.Drawing.Size(1026, 717);
             this.tp2_airTicket.TabIndex = 1;
             this.tp2_airTicket.Text = "Air Ticket";
             // 
@@ -1391,7 +1390,7 @@
             this.groupBox1.Location = new System.Drawing.Point(3, 311);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(0);
-            this.groupBox1.Size = new System.Drawing.Size(1020, 404);
+            this.groupBox1.Size = new System.Drawing.Size(1020, 403);
             this.groupBox1.TabIndex = 22;
             this.groupBox1.TabStop = false;
             // 
@@ -1403,7 +1402,7 @@
             this.flowLayoutPanel1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(1020, 402);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(1020, 401);
             this.flowLayoutPanel1.TabIndex = 23;
             // 
             // label13
@@ -1476,7 +1475,6 @@
             this.tp3_hotel.BackColor = System.Drawing.Color.LightGray;
             this.tp3_hotel.Controls.Add(this.flowLayoutPanel5);
             this.tp3_hotel.Controls.Add(this.flowLayoutPanel4);
-            this.tp3_hotel.Controls.Add(this.btn_testing);
             this.tp3_hotel.Controls.Add(this.search_button);
             this.tp3_hotel.Controls.Add(this.dateTimePicker_CheckOut);
             this.tp3_hotel.Controls.Add(this.label30);
@@ -1486,7 +1484,7 @@
             this.tp3_hotel.Controls.Add(this.label34);
             this.tp3_hotel.Location = new System.Drawing.Point(104, 4);
             this.tp3_hotel.Name = "tp3_hotel";
-            this.tp3_hotel.Size = new System.Drawing.Size(1026, 718);
+            this.tp3_hotel.Size = new System.Drawing.Size(1026, 717);
             this.tp3_hotel.TabIndex = 2;
             this.tp3_hotel.Text = "Hotel";
             // 
@@ -1505,16 +1503,6 @@
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Size = new System.Drawing.Size(584, 650);
             this.flowLayoutPanel4.TabIndex = 24;
-            // 
-            // btn_testing
-            // 
-            this.btn_testing.Location = new System.Drawing.Point(866, 12);
-            this.btn_testing.Name = "btn_testing";
-            this.btn_testing.Size = new System.Drawing.Size(75, 23);
-            this.btn_testing.TabIndex = 23;
-            this.btn_testing.Text = "Check";
-            this.btn_testing.UseVisualStyleBackColor = true;
-            this.btn_testing.Click += new System.EventHandler(this.btn_testing_Click);
             // 
             // search_button
             // 
@@ -1590,7 +1578,7 @@
             this.tp4_Cruise.Controls.Add(this.selectDate);
             this.tp4_Cruise.Location = new System.Drawing.Point(104, 4);
             this.tp4_Cruise.Name = "tp4_Cruise";
-            this.tp4_Cruise.Size = new System.Drawing.Size(1026, 718);
+            this.tp4_Cruise.Size = new System.Drawing.Size(1026, 717);
             this.tp4_Cruise.TabIndex = 3;
             this.tp4_Cruise.Text = "Cruise";
             // 
@@ -1650,7 +1638,7 @@
             this.tp5_attraction.Controls.Add(this.btm_search_AttractionForm);
             this.tp5_attraction.Location = new System.Drawing.Point(104, 4);
             this.tp5_attraction.Name = "tp5_attraction";
-            this.tp5_attraction.Size = new System.Drawing.Size(1026, 718);
+            this.tp5_attraction.Size = new System.Drawing.Size(1026, 717);
             this.tp5_attraction.TabIndex = 4;
             this.tp5_attraction.Text = "Attraction";
             // 
@@ -1723,7 +1711,7 @@
             this.tp6_transport.Controls.Add(this.Transport);
             this.tp6_transport.Location = new System.Drawing.Point(104, 4);
             this.tp6_transport.Name = "tp6_transport";
-            this.tp6_transport.Size = new System.Drawing.Size(1026, 718);
+            this.tp6_transport.Size = new System.Drawing.Size(1026, 717);
             this.tp6_transport.TabIndex = 5;
             this.tp6_transport.Text = "Transport";
             // 
@@ -1735,7 +1723,7 @@
             this.Transport.Location = new System.Drawing.Point(0, 0);
             this.Transport.Name = "Transport";
             this.Transport.SelectedIndex = 0;
-            this.Transport.Size = new System.Drawing.Size(1026, 718);
+            this.Transport.Size = new System.Drawing.Size(1026, 717);
             this.Transport.TabIndex = 1;
             // 
             // Transport1
@@ -1754,7 +1742,7 @@
             this.Transport1.Location = new System.Drawing.Point(4, 30);
             this.Transport1.Name = "Transport1";
             this.Transport1.Padding = new System.Windows.Forms.Padding(3);
-            this.Transport1.Size = new System.Drawing.Size(1018, 684);
+            this.Transport1.Size = new System.Drawing.Size(1018, 683);
             this.Transport1.TabIndex = 0;
             this.Transport1.Text = "Transport";
             this.Transport1.UseVisualStyleBackColor = true;
@@ -1765,7 +1753,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 70);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1012, 611);
+            this.panel1.Size = new System.Drawing.Size(1012, 610);
             this.panel1.TabIndex = 15;
             // 
             // pricerange
@@ -1983,17 +1971,6 @@
             this.lbl_savedCode_forCust.TabIndex = 10;
             this.lbl_savedCode_forCust.Text = "output";
             // 
-            // ucStatuesBar1
-            // 
-            this.ucStatuesBar1.BackColor = System.Drawing.Color.LightGray;
-            this.ucStatuesBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.ucStatuesBar1.Location = new System.Drawing.Point(0, 825);
-            this.ucStatuesBar1.Name = "ucStatuesBar1";
-            this.ucStatuesBar1.sg_lblCurrentStatus = "";
-            this.ucStatuesBar1.sg_lblCustomerSelection = "";
-            this.ucStatuesBar1.Size = new System.Drawing.Size(1134, 26);
-            this.ucStatuesBar1.TabIndex = 6;
-            // 
             // button4
             // 
             this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -2008,6 +1985,17 @@
             this.button4.Text = "Reload saved data";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // ucStatuesBar1
+            // 
+            this.ucStatuesBar1.BackColor = System.Drawing.Color.LightGray;
+            this.ucStatuesBar1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.ucStatuesBar1.Location = new System.Drawing.Point(0, 825);
+            this.ucStatuesBar1.Name = "ucStatuesBar1";
+            this.ucStatuesBar1.sg_lblCurrentStatus = "";
+            this.ucStatuesBar1.sg_lblCustomerSelection = "";
+            this.ucStatuesBar1.Size = new System.Drawing.Size(1134, 26);
+            this.ucStatuesBar1.TabIndex = 6;
             // 
             // MainForm
             // 
@@ -2201,7 +2189,6 @@
         internal System.Windows.Forms.DateTimePicker selectDate;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.Button btn_testing;
         private System.Windows.Forms.Button search_button;
         private System.Windows.Forms.DateTimePicker dateTimePicker_CheckOut;
         private System.Windows.Forms.Label label30;
